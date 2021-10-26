@@ -1,4 +1,11 @@
-function seed() {}
+function seed() {
+  let data=[];
+  for(let i=0; i< arguments.length; i++){
+    data[i] = arguments[i];
+    
+  }
+  return data;
+}
 
 function same([x, y], [j, k]) {}
 
