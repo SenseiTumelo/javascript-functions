@@ -2,12 +2,14 @@ function seed() {
   let data=[];
   for(let i=0; i< arguments.length; i++){
     data[i] = arguments[i];
-    
   }
   return data;
 }
 
-function same([x, y], [j, k]) {}
+function same([x, y], [j, k]) {
+
+  
+}
 
 // The game state to search for `cell` is passed as the `this` value of the function.
 function contains(cell) {}
