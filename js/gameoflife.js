@@ -1,11 +1,7 @@
 function seed() {
-  let data=[];
-  for(let i=0; i< arguments.length; i++){
-    data[i] = arguments[i];
-    
-  }
-  return data;
+  return Array.prototype.slice.call(arguments);
 }
+
 
 function same([x, y], [j, k]) {}
 
